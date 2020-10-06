@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="liste.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header><h1>Formulaire</h1></header>
+	<main>
+		<div class="Formulaire">
+			<form>
+				<div>
+					<div class="sexe">
+						<div>
+							<input class="bordure" type="radio" value="monsieur" name="sexe">Monsieur<br>
+						</div>
+						<div>
+							<input class="bordure" type="radio" value="madame" name="sexe">Madame
+						</div>
+					</div>
+				</div>
+				<div class="name">
+					<div>			
+						<label for="nom">NOM</label>
+						<input class="bordure" id="nom" type="text" name="nom" placeholder="Veuillez entrer votre nom">
+					</div>
+					<div>
+						<label for="prenom">Prénom</label>
+						<input class="bordure" id="prenom" type="text" name="prenom" placeholder="Veuillez entrer votre prénom">
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input class="bordure" id="email" type="text" name="email" placeholder="Veuillez entrer votre adresse email">
+					</div>
+				</div>
+				<div class="option">
+					<label for="categorie">Categorie</label>
+					<select name="categorie" >
+						<option value="Alimentation">Alimentation</option>
+						<option value="Vetement">Vetement</option>
+						<option value="Toilette">Toilette</option>
+						<option value="Sommeil">Sommeil</option>
+						<option value="Eveil Et Jouet">Eveil Et Jouet</option>
+						<option value="Poussette">Poussette</option>
+						<option value="Sécurité">Sécurité</option>
+
+
+					</select>
+						<menu class="bouton-ann-conf">
+					<button value="cancel">Annuler</button>
+					<button id="confirmBtn" value="default">Confirmer</button>
+				</menu>
+				</div>
+				
+			</form>
+
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			<a class="bouton "  href=
+			"liste.html">Ajouter</a>
+			<hr>
+
+			<div class="titre-footer">
+				<h2><u>Pour nous contacter:</u></h2>
+			</div>
+			<ul class="contact">
+				<div class="footer1">           
+					<p><a href=""><img class="logo" src="Image/email.png" alt="email"> contact@gmail.com</a></p>
+				</div>
+				<div class="footer2">
+					<p><a href=""> <img class="logo2" src="Image/telephone.png"> numéro: 07 84 84 84 84 </a></p>
+				</div>
+
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
